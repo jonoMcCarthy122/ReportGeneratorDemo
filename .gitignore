@@ -1,0 +1,33 @@
+### .NET Core ###
+bin/
+obj/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+# NuGet v3's project.json files produces more ignoreable files
+*.nuget.d/
+# Microsoft Azure Web App publish settings. Comment the next line if you want to
+# checkin your Azure Web App publish settings, but sensitive information contained
+# in these scripts will be unencrypted
+*.pubxml
+# Include the passwords or other sensitive information in this file
+Properties/launchSettings.json
+
+### Visual Studio ###
+.vs/
+*.suo
+*.sln.docstates
+
+### NuGet Packages ###
+#nuget packages used by the project
+**/bin/
+
+### Build Results ###
+**/bin/
+**/obj/
